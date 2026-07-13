@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.homeIndicator2 {
+  display: flex;
+  align-items: flex-start;
+  padding: 21px 115px 8px 116px;
+  width: 375px;
+  height: 34px;
+
+  .homeIndicator {
+    border-radius: 100px;
+    background: var(--Labels-Primary, #000000);
+    width: 144px;
+    height: 5px;
+    rotate: -180deg;
+  }
+}

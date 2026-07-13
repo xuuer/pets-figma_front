@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.vet {
+  position: relative;
+  width: 150px;
+  height: 180px;
+
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    width: 150px;
+    height: 180px;
+  }
+
+  .nameStars {
+    display: flex;
+    position: absolute;
+    top: 59px;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border-radius: 0px 0px 8px 8px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    width: 150px;
+    height: 121px;
+    row-gap: 4px;
+    background-image: linear-gradient(180deg, #32323200 0%, #32323299 100%);
+
+    .text {
+      flex-shrink: 0;
+      line-height: 18px;
+      letter-spacing: 0;
+      color: var(--Solid-White, #ffffff);
+      font-family: "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .stars {
+      flex-shrink: 0;
+      width: 86px;
+      height: 14px;
+    }
+  }
+}

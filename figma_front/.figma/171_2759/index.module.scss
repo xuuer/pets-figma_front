@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: var(--Box-Shadow, 0px 16px 32px 0px #0000000d);
+  background: var(--Solid-White, #ffffff);
+  padding: 63px 10px;
+  width: 44px;
+  height: 152px;
+
+  .plus {
+    width: 24px;
+    height: 26px;
+  }
+}

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 311px;
+  height: 114px;
+
+  .text {
+    line-height: 32px;
+    letter-spacing: 0;
+    color: var(--Solid-Primary, #323232);
+    font-family: "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .text2 {
+    margin: 10px 0px 0px;
+    width: 311px;
+    height: 72px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: var(--Solid-Primary, #323232);
+    font-family: "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
